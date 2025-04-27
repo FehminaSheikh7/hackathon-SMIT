@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+.logo{
+    margin-right: 20px;
+}
+.nav-bar{
+  background-color: #333;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+}
+.nav-links li{
+ margin-right: 20px;
+
+
+}
+.nav-bar a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-icon{
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+#menu-toggle{
+  display: none;
+
+}
+header{
+    background-color: white;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+
+}
+header .picture{
+    position: relative;
+    
+    margin-left: 50%;
+    
+    
+}
+header .headpara{
+    position: absolute;
+    
+    margin-right: 50%;
+    top: 180px;
+    
+
+}
+header .ragister{
+    position: absolute;
+    
+    left: 20%;
+     top: 300px;
+     
+     width: 100px;
+     height: 50px;
+
+}
+
+.center{
+    position: absolute;
+    left: 30%;
+    
+    
+    bottom: -5%;
+    left: 25%;
+    right: 20%;
+}
+.ic{
+    position: absolute;
+    
+    left: 25%;
+    top: 30px;
+    
+    
+
+
+    padding: 10px;
+
+}
+.our{
+    position: absolute;
+    font-size: 40px;
+    right: 12px;
+    left: 120px;
+    bottom: 10px;
+    
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.card{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+
+}
